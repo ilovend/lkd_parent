@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "wxpay",
+      "type": "com.lkd.config.WXConfig",
+      "sourceType": "com.lkd.config.WXConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wxpay.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lkd.config.WXConfig"
+    },
+    {
+      "name": "wxpay.app-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.lkd.config.WXConfig"
+    }
+  ],
+  "hints": []
+}

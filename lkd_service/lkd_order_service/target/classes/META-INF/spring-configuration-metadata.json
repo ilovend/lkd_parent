@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "wxpay",
+      "type": "com.lkd.wxpay.WXConfig",
+      "sourceType": "com.lkd.wxpay.WXConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wxpay.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lkd.wxpay.WXConfig"
+    },
+    {
+      "name": "wxpay.app-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.lkd.wxpay.WXConfig"
+    },
+    {
+      "name": "wxpay.mch-id",
+      "type": "java.lang.String",
+      "sourceType": "com.lkd.wxpay.WXConfig"
+    },
+    {
+      "name": "wxpay.notify-url",
+      "type": "java.lang.String",
+      "sourceType": "com.lkd.wxpay.WXConfig",
+      "defaultValue": ""
+    },
+    {
+      "name": "wxpay.partner-key",
+      "type": "java.lang.String",
+      "sourceType": "com.lkd.wxpay.WXConfig"
+    },
+    {
+      "name": "wxpay.r-e-s-u-l-t",
+      "type": "java.lang.String",
+      "sourceType": "com.lkd.wxpay.WXConfig",
+      "defaultValue": "<xml><return_code><![CDATA[SUCCESS]]><\/return_code><return_msg><![CDATA[OK]]><\/return_msg><\/xml>"
+    }
+  ],
+  "hints": []
+}
